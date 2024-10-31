@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+}
+
+.hello{
+    min-width: max-content;
+    text-align: center;
+    margin: 0 0 0 50%;
+    color: inherit;
+}
+.Menu{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    min-height: 2rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 2rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    margin: 0.5rem;
+    justify-content: center;
+    font-family: Tahoma;
+    max-height: 55px;
+    flex-wrap: nowrap;
+}
+.Bodyes{
+    display: flex;
+    flex-direction: row;
+}
+
+.iPhone{
+    border-radius: 1rem;
+}
+
+.News{
+    display: flex
+    flex-direction: column;
+    background-color: rgba(169, 169, 169, 0.46);
+    border-radius: 1rem;
+    flex-grow: 1;
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.Autor{
+    text-align: right;
+}
+body{
+    background-color: #e8e8e8;
+}
+
+.menu-item{
+    color: #505050;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    list-style: none;
+    margin-right: 60px;
+    outline: none;
+    cursor: pointer;
+    flex-wrap: nowrap;
+}
+
