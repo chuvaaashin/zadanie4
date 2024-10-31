@@ -1,0 +1,65 @@
+@media only screen and (max-width : 1350px) {
+    .menu-item{
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (max-width : 1160px) {
+    .menu-item{
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width : 1020px) {
+    .menu-item{
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width : 952px) {
+    .menu-item{
+        margin-right: 1px;
+    }
+}
+
+@media only screen and (max-width : 886px) {
+    .menu-item{
+        display: flex;
+        flex-wrap: wrap;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        border-radius: 1rem;
+        padding: 1rem;
+        max-width: max-content;
+    }
+    .Menu{
+        flex-direction: column;
+        max-height: min-content;
+        border-radius: 1rem;
+    }
+    .News{
+        margin-top:3%;
+        flex-direction: column;
+    }
+    .iPhone{
+        margin-top: 3%;
+    }
+    .hello{
+        margin:auto;
+    }
+    .Header{
+        display: flex;
+        flex-direction: column;
+    }
+    .Bodyes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+@media only screen and (max-width : 730px) {
+    .hello{
+        color: rgba(245, 245, 245, 0.14);
+    }
+}
